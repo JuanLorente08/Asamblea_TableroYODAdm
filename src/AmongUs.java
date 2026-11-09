@@ -1,5 +1,6 @@
 import java.util.Random;
 import java.util.Scanner;
+// Codigo añadido (no es el mio)
 
 public class AmongUs {
     public static void main(String[]args ){
