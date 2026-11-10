@@ -106,7 +106,7 @@ public class AmongUs {
             char mov = lector.next().charAt(0);
             int filaAnteriorTripulante = filaOficialTripulante; // Hago esto para tener registri y poder guardarme la posición anterior del personaje
             int columnaAnteriorTripulante = columnaOficialTripulante; // lo mismo que en linea arriba pero para columnas
-            switch (mov){ // Defino para que con WASD el personaje A se mueva por el tablero // Tambien se puede hacer con else y else if
+            switch (Character.toUpperCase(mov)){ // Defino para que con WASD el personaje A se mueva por el tablero // Tambien se puede hacer con else y else if
                 case 'W':
                     filaOficialTripulante --;
                     break;

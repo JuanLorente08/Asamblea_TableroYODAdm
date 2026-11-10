@@ -98,7 +98,7 @@ public class Racher {
             char mov = lector.next().charAt(0);
             int filaAnteriorRacher = filaOficialRacher;
             int columnaAnteriorRacher = columnaOficioalRacher;
-            switch (mov){ // W, A, S o D
+            switch (Character.toUpperCase(mov)){ // W, A, S o D
                 case 'W':
                     filaOficialRacher --;
                     break;

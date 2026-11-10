@@ -114,7 +114,7 @@ public class Hollow_night {
             char mov = lector.next().charAt(0);
             int filaAnteriorCaballero = filaOficialCaballero; // Hago esto para tener registri y poder guardarme la posición anterior del personaje
             int columnaAnteriorCaballero = columnaOficialCaballero; // lo mismo que en linea arriba pero para columnas
-            switch (mov){ // Defino para que con WASD el personaje A se mueva por el tablero // Tambien se puede hacer con else y else if
+            switch (Character.toUpperCase(mov)){ // Defino para que con WASD el personaje A se mueva por el tablero // Tambien se puede hacer con else y else if
                 case 'W':
                     filaOficialCaballero --;
                     break;
