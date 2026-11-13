@@ -1,7 +1,6 @@
 public class Procedimientos_Practica {
-    // Atriburo
     static char[][] tablero = new char[10][10];
-
+    static
     static void imprimirTablero(){
         for (int i = 0; i < tablero.length; i++) {
             for (int j = 0; j < tablero.length; j++) {
